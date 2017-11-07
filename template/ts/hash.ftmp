@@ -1,0 +1,10 @@
+class ProtocolHash{
+    public static Readers:Function[] = [];
+    public static Writers:Function[] = [];
+    public static Adapter:any[] = [];
+}
+{@read}
+
+{@write}
+
+{@adapter}

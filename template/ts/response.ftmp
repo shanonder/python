@@ -1,0 +1,10 @@
+class {@name}{
+    /**
+     * {@desc}
+     */
+
+{@param}
+    constructor(byte:Byte){
+{@read}
+    }
+}

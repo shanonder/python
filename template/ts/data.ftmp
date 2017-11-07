@@ -1,0 +1,17 @@
+class {@name}{@extend}{
+    /**
+     * {@desc}
+     */
+
+{@param}
+    public static readByte(byte:Byte , data?:{@name}):{@name}{
+        if(!data) data = new {@name}();
+{@read}
+        return data;
+    }
+
+    public static writeByte(byte:Byte , data:{@name}):Byte{
+{@write}
+        return byte;
+    }
+}
